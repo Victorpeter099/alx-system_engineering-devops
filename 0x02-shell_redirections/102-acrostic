@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(cut -cl | Paste -s | Tr -d "\n")
+echo $ (cut -cl | Paste -s | Tr -d "\n")
