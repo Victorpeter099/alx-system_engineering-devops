@@ -1,2 +1,2 @@
 #!/bin/bash
-Cut -cl | Paste -s | Tr -d "[:blank:]"
+echo $(cut -cl | Paste -s | Tr -d "\n")
